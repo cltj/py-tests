@@ -2,3 +2,4 @@ requests
 uuid
 wonderwords
 azure-data-tables
+python-dotenv
