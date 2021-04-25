@@ -12,7 +12,7 @@ b = uuid.uuid3(uuid.NAMESPACE_DNS, 'cloudlink.ai')
 c = uuid.uuid4()
 
 # make a UUID using a SHA-1 hash of a namespace UUID and a name
-d = uuid.uuid5(uuid.NAMESPACE_DNS, 'python.org')
+d = uuid.uuid5(uuid.NAMESPACE_DNS, 'cloudlink.ai')
 
 # make a UUID from a string of hex digits (braces and hyphens ignored)
 e = uuid.UUID('{00010203-0405-0607-0809-0a0b0c0d0e0f}')
