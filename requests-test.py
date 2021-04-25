@@ -14,9 +14,6 @@ tibberKey = os.getenv("TIBBER_ACCESS_KEY")
 tibberHomeId = os.getenv("TIBBER_HOME_ID")
 
 
-
-
-
 # Query azure tables with SAS key
 filter = "balance gt '2000.40'"
 select = "id, balance"
@@ -118,6 +115,6 @@ print(response1.text)
 print("##########  Response from tibber ###########")
 print("----------------  Energy Prices  --------------------")
 print("Todays average electricity price was " + str(avgPrice) + " nok , where " + str(avgTax) + " nok (" + str(avgTaxPc) + "%)" + " was taxes")
-print("----------------  CONSUMPTION  --------------------")
+print("------------------  CONSUMPTION  --------------------")
 print("Todays AVERAGE electricity numbers:\n        cost: " + str(avgCost) + " NOK \n        unit price: " + str(avgUnitPrice) + " NOK \n        unitVAT: " + str(avgUnitPriceVAT) + " NOK \n        consumption: " + str(avgConsumption) + " KWH\n\n" )
 print("Todays TOTAL electricity numbers:\n        totalCost: " + str(totCost) + " NOK \n        unit price: " + str(totUnitPrice) + " NOK \n        unitVAT: " + str(totUnitPriceVAT) + " NOK \n        consumption: " + str(totConsumption) + " KWH\n\n")
