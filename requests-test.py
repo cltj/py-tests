@@ -1,12 +1,10 @@
-# NOT DONE
 
 # pip install requests
 
 import requests, os, string, json
 from dotenv import find_dotenv, load_dotenv
 
-
-#Def
+# ENV vars #
 load_dotenv(find_dotenv())
 account_name = os.getenv("STORAGE_ACCOUNT_NAME")
 sig = os.getenv("SIG")
