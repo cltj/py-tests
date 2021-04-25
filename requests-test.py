@@ -4,7 +4,7 @@
 
 import requests, os, string, json
 from dotenv import find_dotenv, load_dotenv
-from twilio.rest import Client
+
 
 #Def
 load_dotenv(find_dotenv())
