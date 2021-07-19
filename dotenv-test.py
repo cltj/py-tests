@@ -8,5 +8,6 @@ import os
 load_dotenv(find_dotenv())
 
 account_name = os.getenv("STORAGE_ACCOUNT_NAME")
+account_password = os.getenv("STORAGE_ACCOUNT_PASSWORD")
 
-print(account_name)
+print(account_name, account_password)
